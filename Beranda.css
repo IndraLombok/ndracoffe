@@ -148,17 +148,16 @@ nav a.active {
     margin-top: 100px;
 }
 .menu-judul{
-    width: 200px;
-    height: 50px;
-    background-color: #ab7150;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
-    border-radius: 25px;
 }
-.menu H2{
-    text-align: center;
-    padding-top: 10px;
+.menu a{
+    text-decoration: none;
+    background-color: #a45d2a;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
 }
 .gambarmenu {
     display: grid;
@@ -192,17 +191,18 @@ nav a.active {
     margin-top: 100px;
 }
 .Read_More .Read_More-judul {
-    width: 200px;
+    width: 150px;
     height: 50px;
-    background-color: #ab7150;
+    background-color: #a45d2a;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     border-radius: 25px;
+    color: white;
 }
 .Read_More .Read_More-judul h2 {
     padding-top: 10px;
-    
+    font-size: 20px;
 }
 .Read_More .Read_More-judul h2 {
     text-align:center;  
@@ -210,4 +210,14 @@ nav a.active {
 } 
 .Read_More .produk {
     margin-top: 10px;
+}
+.footer {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
 }

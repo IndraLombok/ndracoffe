@@ -13,19 +13,19 @@
             NDRA COFFE
         </div>
         <nav>
-            <a href="../BERANDA.html">BERANDA</a>
+            <a href="../index.html">BERANDA</a>
             <a href="Tentang.html">TENTANG</a>
             <a href="Kontak.html">KONTAK</a>
         </nav>
         <div class="search">
             <input type="text" placeholder="Cari...">
-            <img src="/images/search-icon.png" alt="Cari">
+            <img src="search-icon.png" alt="Cari">
         </div>
     </header>
     <div class="hero">
         <h1>Selamat Datang di NDRA Coffee</h1>
         <p>Tempat terbaik untuk menikmati secangkir kopi yang sempurna</p>
-        <button>Read More</button>
+        <button id="button" class="button">Read More</button>
     </div>
 
     <section class="about">
@@ -39,4 +39,10 @@
         <p>© 2025 NDRA Coffee. All Rights Reserved.</p>
     </footer>
 </body>
+<script>
+    const readmore = document.getElementById("button");
+    readmore.addEventListener("click",function(){
+        window.location.href = "readmore.html"
+    });
+</script>
 </html>

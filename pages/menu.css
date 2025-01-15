@@ -1,0 +1,176 @@
+body{
+    background-color: #f5d7a1;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f5d7a1;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height:50px;
+    width:50px;
+    object-fit: cover;
+    margin-right: 50px;
+    border-radius: 100%;  
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+nav a.active {
+    color: hwb(36 15% 17%);
+}
+
+.search {
+    background-color: #dca77e;
+    border-radius: 15px;
+    color: #f37c0e;
+    font-size: 15px;
+    cursor: pointer;
+}
+.search input {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 10px;
+}
+.search img {
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+.top-kategories-container h2{
+    text-align: center ;
+}
+.top-kategories-container p{
+    text-align: center;
+}
+.gambar-conttainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.top-kategories-container .gambar-conttainer .gambar1{
+    background-image: url(img-1.png);
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-position: center;
+}
+.gambar-conttainer .gambar1 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.top-kategories-container .gambar-conttainer .gambar2{
+    background-image: url(img-2.png);
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-position: center;
+}
+.gambar-conttainer .gambar2 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.top-kategories-container .gambar-conttainer .gambar3{
+    background-image: url(img-3.png);
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-position: center;
+}
+.gambar-conttainer .gambar3 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.top-ice-coffe-container h2{
+    text-align: center ;
+}
+.top-ice-coffe-container p{
+    text-align: center;
+}
+.gambar-conttainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.top-ice-coffe-container .gambar-conttainer .gambar1{
+    background-image: url(top\ ice\ coffe\ \(1\).jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-position: center;
+}
+.gambar-conttainer .gambar1 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.top-ice-coffe-container .gambar-conttainer .gambar2{
+    background-image: url(top\ ice\ coffe\ \(2\).jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-position: center;
+}
+.gambar-conttainer .gambar2 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.top-ice-coffe-container .gambar-conttainer .gambar3{
+    background-image: url(top\ ice\ coffe\ \(3\).jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-position: center;
+}
+.gambar-conttainer .gambar3 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    
+}

@@ -64,7 +64,7 @@ nav a.active {
     flex-direction: column;
     text-align: center;
     padding: 100px 20px;
-    background: url('https://source.unsplash.com/1600x900/?coffee-shop') no-repeat center center/cover;
+    background: url(/cortado.jpeg) no-repeat center center/cover;
     color: white;
     position: relative;
 }

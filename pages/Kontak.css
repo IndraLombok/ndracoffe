@@ -77,3 +77,60 @@ section .container .gambar img {
     height: 250px;
     border-radius: 25px;
 }
+
+footer {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10rem;
+}
+footer .navmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+footer .navmenu a {
+    text-decoration: none;
+    color: black;
+}
+footer .tentang {
+    width: 500px;
+    height: 250px;
+}
+footer .alamat {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 65px;
+}
+footer .alamat .lokasi {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+footer .alamat .lokasi img {
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+}
+footer .alamat .telp {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+footer .alamat .telp img {
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+}
+footer .alamat .email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+footer .alamat .email img {
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+}
