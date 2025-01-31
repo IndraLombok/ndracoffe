@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f5d7a1;
+    background-color: #ffffff;
+    font-family: 'Helvetica', 'Times New Roman',;
 }
 header {
     display: flex;
@@ -12,6 +13,8 @@ header {
     align-items: center;
     padding: 20px 50px;
     background-color: #f5d7a1;
+    font-family: 'Garamond', serif;
+    font-weight: 700;
 }
 
 .logo {
@@ -80,7 +83,7 @@ section .container .sejarah .sejarah-judul {
     text-align: center;
     width: 200px;
     height: 30px;
-    background-color: #ab7150;
+    background-color: #ffffff;
     border-radius: 25px;
     font-size: 15px;
 }
@@ -91,7 +94,7 @@ section .container2 .membuat-coffe-container .membuat-coffe {
     text-align: center;
     width: 200px;
     height: 30px;
-    background-color: #ab7150;
+    background-color: #ffffff;
     border-radius: 25px;
     font-size: 15px;
 }
@@ -99,7 +102,7 @@ section .container2 .cerita-unik-container .cerita-unik {
     text-align: center;
     width: 200px;
     height: 30px;
-    background-color: #ab7150;
+    background-color: #ffffff;
     border-radius: 25px;
     font-size: 15px;
 }

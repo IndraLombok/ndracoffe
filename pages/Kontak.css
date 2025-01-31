@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5d7a1;
+    background-color: #ffffff;
+    font-family: 'Helvetica', 'Times New Roman',;
 }
 header {
     display: flex;
@@ -9,6 +9,8 @@ header {
     align-items: center;
     padding: 20px 50px;
     background-color: #f5d7a1;
+    font-family: 'Garamond', serif;
+    font-weight: 700;
 }
 
 .logo {

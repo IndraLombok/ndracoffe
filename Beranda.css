@@ -2,15 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #f5d7a1;
+    background-color: #ffffff;
     color: #1a1a1a;
-    padding: 20px;
-
+    font-family: 'Helvetica', 'Times New Roman',;
 }
 
 header {
@@ -19,6 +17,8 @@ header {
     align-items: center;
     padding: 20px 50px;
     background-color: #f5d7a1;
+    font-family: 'Garamond', serif;
+    font-weight: 700;
 }
 
 .logo {
@@ -184,7 +184,7 @@ nav a.active {
     margin-top: 10px;
     width: 200px;
     height: 25px;
-    background-color: #ab7150;
+    background-color: #ffffff;
     border-radius: 25px;
 }
 .Read_More {
@@ -193,12 +193,12 @@ nav a.active {
 .Read_More .Read_More-judul {
     width: 150px;
     height: 50px;
-    background-color: #a45d2a;
+    background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     border-radius: 25px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .Read_More .Read_More-judul h2 {
     padding-top: 10px;
@@ -212,8 +212,8 @@ nav a.active {
     margin-top: 10px;
 }
 .footer {
-    background-color: #8b5a2b;
-    color: white;
+    background-color: #f5d7a1;
+    color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
 }

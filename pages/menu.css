@@ -1,5 +1,6 @@
 body{
-    background-color: #f5d7a1;
+    background-color: #ffffff;
+    font-family: 'Helvetica', 'Times New Roman',;
 }
 header {
     display: flex;
@@ -7,6 +8,8 @@ header {
     align-items: center;
     padding: 20px 50px;
     background-color: #f5d7a1;
+    font-family: 'Garamond', serif;
+    font-weight: 700;
 }
 
 .logo {
@@ -160,6 +163,67 @@ nav a.active {
 }
 .top-ice-coffe-container .gambar-conttainer .gambar3{
     background-image: url(top\ ice\ coffe\ \(3\).jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-position: center;
+}
+.gambar-conttainer .gambar3 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.top-KopiPahit-container h2{
+    text-align: center ;
+}
+.top-KopiPahit-container p{
+    text-align: center;
+}
+.gambar-conttainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.top-KopiPahit-container .gambar-conttainer .gambar1{
+    background-image: url(kopi-pahit\ \(1\).jpeg);
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-position: center;
+}
+.gambar-conttainer .gambar1 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.top-KopiPahit-container .gambar-conttainer .gambar2{
+    background-image: url(kopi-pahit\ \(2\).jpeg);
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    background-position: center;
+}
+.gambar-conttainer .gambar2 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.top-KopiPahit-container .gambar-conttainer .gambar3{
+    background-image: url(kopi-pahit\ \(3\).jpeg);
     width: 250px;
     height: 250px;
     border-radius: 25px;
